@@ -4,7 +4,8 @@ klas vs struktuta - razmerut (str e po-malka) i prilojenieto (klas ima unasledqv
 modifikatori - public, protected i private(toba e po default)
 enkapsulaciq - zatvarqne na dannite, koito ne iskame da izpolzvame i im davame opredelen vhod i izhod, koito iskame da izpolzvame
 metod vs funkciq - metodut e v klasa
-property - promenliva v klas*/
+property - promenliva v klas
+vidove konstrukturi - osnoven? i s parametri*/
 #include <iostream>
 
 using namespace std;
@@ -41,8 +42,6 @@ public:
         this->data = new int[this->capacity];
         this->size = 0;
     }
-
-    Vector(const Vector &v) = delete;
 
     Vector(int* data, size_t size, size_t capacity) {
         this->capacity = capacity;
