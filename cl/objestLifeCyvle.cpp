@@ -2,11 +2,15 @@
 mikrosurvisna arhitektura - razbivat monolita
 const char* - ne moje da promenqsh stojnostta na stringa
 char const* - ne promenqsh kude sochi pointera 
-const cahr const* - ne mojesh da promenqsh nito pointera, nito stojnostta
+const char const* - ne mojesh da promenqsh nito pointera, nito stojnostta
+constantni poltea - inicializirat se s konstruktura, tam se zadava purvonachalnata stojnost
 function overloading - funkcii s edno i sushto ime, no razlichni tipove i argumenti
 shallow copy - e i e2 sochat kum edna i sushta pamet
 deep copy - zadelq se nova pamet za e2
-golqma petorka - kostruktor, copy konstruktor, move konstruktor, operator i destruktor*/
+golqma petorka - kostruktor, copy konstruktor, move konstruktor, operator i destruktor
+klas - blueprint/interfejs na nqkakuv predmet, tn
+atomaren tip - bazovite tipove
+modifikatori - visibilityto v klasa: public, private i protected*/
 
 #include <iostream>
 #include <cstring>
@@ -21,7 +25,7 @@ enum Weekday {
     FRIDAY,
     SATURDAY,
     SUNDAY
-}
+};
 
 const char* translateDay(Weekday day) {
     char* result;
