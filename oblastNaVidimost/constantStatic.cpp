@@ -34,5 +34,9 @@ int Class::numberOfClasses = 0;
 
 int main() {
 
+    Class c1;
+    cout << c1.getName() << endl;
+
+
     return 0;
 }
