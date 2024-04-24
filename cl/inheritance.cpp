@@ -2,6 +2,8 @@
 
 //virtual - pokazwa, che nqkava definiciq moje da bude promenqna
 //hibavo e da pishem override
+// abstrakten klas ne moje da se nasledqwa osven ako ne e implementirana vitrualnata funkciq v deteto
+
 
 using namespace std;
 
